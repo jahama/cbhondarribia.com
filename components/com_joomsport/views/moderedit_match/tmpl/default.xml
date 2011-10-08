@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="Team Layout">
+		<message>
+			<![CDATA[STANDARD ARTICLE LAYOUT DESC]]>
+		</message>
+	</layout>
+	<state>
+		<name>Team Layout</name>
+		<description>Team Layout</description>
+		<url addpath="/administrator/components/com_joomsport/elements">
+			<param name="sid" type="season" default="0" label="Select Season" description="Season" />
+			<param name="tid" type="team" default="0" label="Select Team" description="Team" />
+		</url>
+		<params>
+		</params>
+	</state>
+</metadata>

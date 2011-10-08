@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install version="1.5" type="plugin" group="system">
+	<name>AS Google Analytics</name>
+    <author>AlejoSotelo.com.ar</author>
+	<copyright>(C) 2009-2010 AlejoSotelo.com.ar</copyright>
+	<license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+    <authorEmail>soporte@alejosotelo.com.ar</authorEmail>
+    <authorUrl>www.alejosotelo.com.ar</authorUrl>
+    <version>1.0.0</version>
+	<description>INSTALADO CORRECTAMENTE</description>
+	<files>
+		<filename plugin="asgoogleanalytics">asgoogleanalytics.php</filename>
+	</files>
+	<languages>
+		<language tag="en-GB">en-GB.plg_system_asgoogleanalytics.ini</language>
+		<language tag="es-ES">es-ES.plg_system_asgoogleanalytics.ini</language>
+	</languages>
+	<params>
+		<param name="id_ga" type="text" default="UA-XXXXX-YY" label="ID" description="ID DESC" />
+		<param name="nombre_dominio" type="text" default="" label="NOMBRE DOMINIO" description="NOMBRE DOMINIO DESC" />
+		<param name="cookie_utmz" type="text" default="" label="COOKIE UMTZ" description="COOKIE UMTZ DESC" />
+		<param name="codigo_personalizado" type="textarea" default="" label="CODIGO PERSONALIZADO" description="CODIGO PERSONALIZADO DESC" rows="15" cols="45" />
+		<param name="codigo_personalizado_despues" type="textarea" default="" label="CODIGO PERSONALIZADO DESPUES" description="CODIGO PERSONALIZADO DESPUES DESC" rows="15" cols="45" />
+	</params>
+</install>

@@ -1,0 +1,327 @@
+/* Edit the width and height of #logo to match your new logo image size when customizing your logo */
+#logo {width: 400px;height: 100px;float: left;}
+
+/* @group Core Elements */
+
+html {height: 100%;margin-bottom: 1px;}
+body {margin: 0;font-family: Arial;font-size: 80%;line-height: 135%;}
+
+/* Font family information */
+
+body#ff-default, body#ff-default td {font-family: Helvetica, Arial, FreeSans, sans-serif;}
+body#ff-optima, #ff-optima td {font-family: Optima, Lucida, 'MgOpen Cosmetica', 'Lucida Sans Unicode', sans-serif;}
+body#ff-geneva, #ff-geneva td {font-family: Geneva, Tahoma, "Nimbus Sans L", sans-serif;}
+body#ff-helvetica, #ff-helvetica td {font-family: Helvetica, Arial, FreeSans, sans-serif;}
+body#ff-lucida, #ff-lucida td {font-family: "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Lucida, sans-serif;}
+body#ff-georgia, #ff-georgia td {font-family: Georgia, sans-serif;}
+body#ff-trebuchet, #ff-trebuchet td {font-family: "Trebuchet MS", sans-serif;}
+body#ff-palatino, #ff-palatino td {font-family: "Palatino Linotype", "Book Antiqua", Palatino, "Times New Roman", Times, serif;}
+body#ff-default #horiz-menu, body#ff-default #bottom-menu, body#ff-default a.mainlevel, body#ff-default a.sublevel {font-family: Geneva, Tahoma, "Nimbus Sans L", sans-serif;}
+
+/* Core Styles */
+
+form {margin: 0;padding: 0;}
+body.f-small, body#ff-optima.f-small, body#ff-georgia.f-small {font-size: 11px;}
+body, body.f-default {font-size: 12px;}
+body#ff-optima, body#ff-optima.f-default {font-size: 13px;}
+body#ff-georgia, body#ff-georgia.f-default {font-size: 13px;}
+body.f-large, body#ff-optima.f-large, body#ff-georgia.f-large {font-size: 14px;}
+p {margin-top: 10px;margin-bottom: 15px;}
+h1, h2, h3, h4, h5 {padding-bottom: 5px;margin: 25px 0 10px 0;font-weight: normal;line-height: 120%;}
+h1 {font-size: 200%;line-height: 100%;}
+h2 {font-size: 175%;line-height: 100%;}
+h3 {font-size: 150%;}
+h4 {font-size: 120%;}
+h5 {font-size: 120%;text-transform: uppercase;}
+a {text-decoration: none;}
+a:hover {text-decoration: underline;}
+.clr {clear: both;}
+
+/* @end */
+
+/* @group Joomla Elements */
+
+.mosimage_caption {font-size: 90%;}
+.componentheading {font-size: 180%;line-height: 130%;font-weight: normal;padding: 0 0 0 5px;margin: 0 0 20px 0;}
+.contentheading {font-size: 180%;font-weight: normal;border: 0;padding: 0;line-height: 140%;}
+span.small, td.createdate, td.modifydate {font-size: 90%;}
+table.blog td.createdate {padding-bottom: 5px;}
+table.blog td.modifydate {padding-top: 10px;}
+td.buttonheading, .contentpaneopen td.buttonheading {padding: 0 1px;border: 0;}
+td.column_separator {padding-left: 15px;}
+td.componentheading {padding-bottom: 15px;}
+.sectiontableheader {font-weight: bold;padding: 4px;line-height: 25px;}
+tr.sectiontableentry1 td, tr.sectiontableentry2 td, td.sectiontableentry1, td.sectiontableentry2 {text-align: left;padding: 2px 0 0px 5px;}
+tr.sectiontableentry2 td, td.sectiontableentry2 {height: 25px;}
+tr.sectiontableentry1 td, td.sectiontableentry1 {height: 25px;}
+.contentpane, .contentpaneopen {width: 100%;}
+
+/* @end */
+
+/* @group Structure */
+
+#header-bar {padding: 0 10px;overflow: hidden;}
+#header-divider {height: 1px;overflow: hidden;}
+.logo-module {width: 400px;float: left;overflow: hidden;padding: 15px 0;}
+#headerblock-right {width: 518px;height: 108px;float: right;}
+#headerblock-right .padding {padding: 6px 0;}
+#top-menu {height: 60px;width: 468px;overflow: hidden;display: block;text-align: right;}
+
+#main-body {border-top: 0;margin-bottom: 4px;}
+.maincontent-surround {overflow: hidden;}
+#inset-block-right {float: right;}
+#inset-block-right .right-padding {padding-left: 15px;}
+#inset-block-left {float: left;}
+#inset-block-left .left-padding {padding-right: 15px;}
+
+#topmenu-mod {float: right;width: 67%;visibility: hidden;}
+#banner-mod {float: right;width: 60%;padding-top: 8px;}
+#rightbanner {float: right;}
+#rightbanner .padding {padding: 15px 0 0 20px;}
+#leftbanner {float: left;}
+#leftbanner .padding {padding: 15px 20px 0 0;}
+
+#newsflash-block {float: left;width: 60%;height: 20px;font-style: italic;overflow: hidden;}
+#searchmod {height: 26px;padding: 10px 0 0 0;float: right;text-align: right;overflow: hidden;line-height: 28px;}
+#searchmod .moduletable, #bottom-menu .moduletable {padding: 0;}
+#searchmod .inputbox {width: 233px;height: 18px;border: 0;padding: 4px 0 4px 5px;float: left;}
+#searchmod input.button {width: 42px;height: 26px;cursor: pointer;border: 0;margin: 0;}
+#searchmod input.button:hover {background-position: 0 -26px;}
+
+#maincol .padding {padding: 15px;}
+#rightcol {float: right;}
+#leftcol {float: left;}
+
+#bottom {padding-bottom: 15px;}
+.rocket-block {text-align: center;display: block;padding: 10px 0;}
+img#rocket, img#rocket2 {width: 165px;height: 22px;}
+
+table.mainbody, table.blog {width: 100%;border: 0;padding: 0;}
+.spacer .block {float: left;}
+.spacer.w99 .block {width: 99.8%;}
+.spacer.w49 .block {width: 49.8%;}
+.spacer.w33 .block {width: 33.2%;}
+.spacer.w24 .block {width: 24.8%;}
+.div-spacer {height: 1px;}
+
+/* @end */
+
+/* @group Modules */
+
+#top-menu .moduletable {padding:0;margin: 0;height: 35px;}
+#top-menu .moduletable h3 {display: none;}
+#top-menu .moduletable td {padding: 0;}
+#main-body .showcase-module .moduletable, #main-body .showcase-module2 .moduletable {background: none;}
+#mainmodules div.module, #mainmodules2 div.module, #mainmodules div.module-clean, #mainmodules2 div.module-clean {padding: 15px;}
+#mainmodules3, #mainmodules4 {margin-bottom: 4px;}
+#mainmodules3 .module h3, #mainmodules4 .module h3 {background: none;}
+.module, .moduletable, .moduletable-clean {padding: 15px 15px 25px 15px;margin: 0;}
+.module-menu {padding: 10px 5px 0 5px;}
+.module h3, .moduletable h3, .module-clean h3, .moduletable-clean h3 {height: 22px;line-height: 22px;padding: 10px 15px 20px 15px;font-weight: bold;font-size: 130%;margin: -15px -15px 0 -15px;}
+#bottommodules div.module h3 {background: none;}
+#bottom-menu div.moduletable {padding-bottom: 0;}
+.sidenav-block {margin-top: -1px;}
+.sidenav-block h3, .moduletable_menu h3 {margin-top: 0;padding-left: 8px;}
+#topbanner .moduletable {padding: 20px 0 25px 0;}
+#banner-mod .moduletable, #topmenu-mod .moduletable {float: right;margin: 0;padding: 0;}
+#leftcol .moduletable, #rightcol .moduletable {padding-bottom: 25px;}
+#newsflash .moduletable h3, .logo-module .moduletable h3 {display: none;}
+#newsflash .moduletable {margin: 0;padding: 0;}
+#bottom .module, #maincol .module, #extendedmodules .module {padding: 25px 15px 15px 15px;}
+.moduletable-flush, .logo-module .moduletable {margin: 0;padding: 0;}
+#rightbanner .moduletable h3, #leftbanner .moduletable h3 {margin: 0 0 4px 0;padding: 0 0 0 2px;text-transform: uppercase;font-size: 80%;letter-spacing: 1px;font-family: Arial, sans-serif;}
+#rightbanner .moduletable, #leftbanner .moduletable {padding: 0;margin: 0 0 35px 0;}
+#mainmodules, #mainmodules2, #mainmodules3, #mainmodules4, #bottommodules, #extendedmodules, .showcase-module, .showcase-module2 {overflow: hidden;}
+#maincol .module-hilite1, #maincol .module-hilite2, #maincol .module-hilite3, #maincol .module-hilite4, #maincol .module-hilite5, #maincol .module-hilite6 {margin: 0;border: 0;}
+.module-hilite1, .moduletable-hilite1, .module-hilite2, .moduletable-hilite2, .module-hilite3, .moduletable-hilite3, .module-hilite4, .moduletable-hilite4, .module-hilite5, .moduletable-hilite5, .module-hilite6, .moduletable-hilite6 {margin: 10px;padding: 15px;}
+.module-hilite1 h3, .moduletable-hilite1 h3, .module-hilite2 h3, .moduletable-hilite2 h3, .module-hilite3 h3, .moduletable-hilite3 h3, .module-hilite4 h3, .moduletable-hilite4 h3, .module-hilite5 h3, .moduletable-hilite5 h3, .module-hilite6 h3, .moduletable-hilite6 h3 {margin-top: 0;font-size: 120%;font-weight: bold;text-indent: 20px;}
+body.noicon .module-hilite1 h3, body.noicon .moduletable-hilite1 h3, body.noicon .module-hilite2 h3, body.noicon .moduletable-hilite2 h3, body.noicon .module-hilite3 h3, body.noicon .moduletable-hilite3 h3, body.noicon .module-hilite4 h3, body.noicon .moduletable-hilite4 h3, body.noicon .module-hilite5 h3, body.noicon .moduletable-hilite5 h3, body.noicon .module-hilite6 h3, body.noicon .moduletable-hilite6 h3 {text-indent: 0;}
+#leftbanner .moduletable h3, #rightbanner .moduletable h3 {background: none;}
+#inset-block-left .moduletable-hilite1, #inset-block-left .moduletable-hilite2, #inset-block-left .moduletable-hilite3, #inset-block-right .moduletable-hilite1, #inset-block-right .moduletable-hilite2, #inset-block-right .moduletable-hilite3, #inset-block-left .moduletable-hilite4, #inset-block-right .moduletable-hilite4, #inset-block-left .moduletable-hilite5, #inset-block-right .moduletable-hilite5, #inset-block-left .moduletable-hilite6, #inset-block-right .moduletable-hilite6 {margin: 0 0 15px 0;}
+#inset-block-left .moduletable-clean, #inset-block-right .moduletable-clean, #inset-block-left .moduletable, #inset-block-right .moduletable {padding: 0 0 20px 0;}
+#inset-block-left div.moduletable, #inset-block-right div.moduletable, #inset-block-left div.moduletable h3, #inset-block-right div.moduletable h3 {background: none;}
+#topbanner .moduletable h3 {background: none;}
+.banner-module, .banner-module2 {text-align: center;}
+#maincol .banner-module .moduletable, #maincol .banner-module2 .moduletable {padding-bottom: 15px;background: none;}
+.footer-module .moduletable {margin-top: 10px;}
+.footer-module .moduletable h3 {background: none;}
+.module-hilite7, .moduletable-hilite7, .module-hilite8, .moduletable-hilite8, .module-hilite9, .moduletable-hilite9 {padding: 15px;margin-bottom: 0px;}
+.module-hilite7 h3, .moduletable-hilite7 h3, .module-hilite8 h3, .moduletable-hilite8 h3, .module-hilite9 h3, .moduletable-hilite9 h3 {margin-top: 0;font-size: 130%;}
+#rightcol .moduletable-hilite7, #leftcol .moduletable-hilite7, #rightcol .moduletable-hilite8, #leftcol .moduletable-hilite8, #rightcol .moduletable-hilite9, #leftcol .moduletable-hilite9 {margin-top: -1px;}
+#pathway-module .moduletable {padding: 15px;margin-bottom: 15px;}
+.moduletable_menu {padding: 10px 5px 5px 5px;margin-top: -1px;}
+.moduletable_text {padding: 15px;margin-bottom: 10px;}
+.moduletable_text h3 {margin-top: 0;}
+
+/* @end */
+
+/* Horizontal Menus */
+
+#sub-menu a:hover, #sub-menu ul.menusub li.active a {font-weight: normal;}
+#horiz-menu ul {list-style: none;padding: 0;margin: 0;}
+#horiz-menu li {display: block;float: left;margin: 0;padding: 0;font-weight: bold;}
+#horiz-menu li a span, #horiz-menu li .separator span {display: block;padding: 0;}
+#sub-menu li {display: block;float: left;margin: 0;padding: 0;border: 0;}
+#top-menu a.mainlevel {padding: 0 0 0 8px;margin: 0 0 0 15px;}
+#horiz-menu ul ul li.active {background: none !important;}
+
+/* Menu Dropdowns */
+
+#horiz-menu li li.active, #horiz-menu li.active li a, #horiz-menu li.active li a:hover, #horiz-menu li li a:hover, #horiz-menu ul li.active.parent ul a, #horiz-menu li.active li .separator, #horiz-menu li.active li .separator:hover, #horiz-menu li li .separator:hover, #horiz-menu ul li.active.parent ul .separator {background: none;border: 0;padding: 0;margin: 0;}
+#horiz-menu li li a, #horiz-menu li li .separator {font-size: 100%;font-weight: normal;background: none;padding: 0;margin: 0;}
+#horiz-menu li li, #horiz-menu li li a span, #horiz-menu li li .separator span {background: none;padding: 0;margin: 0;}
+#horiz-menu li li a span, #horiz-menu li li .separator span {padding: 0;}
+#horiz-menu li.sfHover li a, #horiz-menu li:hover li a, #horiz-menu ul li.active ul li.active li a, #horiz-menu ul li.active.parent ul li a, #horiz-menu li.sfHover li .separator, #horiz-menu li:hover li .separator, #horiz-menu ul li.active.parent ul li .separator, #horiz-menu ul li.active.parent ul li .seperator {text-indent: 15px;background: none !important;}
+#horiz-menu li.active li a, #horiz-menu li.active.parent li a, #horiz-menu li.active li .separator, #horiz-menu li.active.parent li .separator {font-weight: normal;font-size: 100%;background: none !important;}
+#horiz-menu ul ul {margin: 0;padding: 0;border-top: 0;}
+#horiz-menu ul ul li:hover {background: none !important;}
+#horiz-menu ul ul li a, #horiz-menu ul li.active.parent ul a, #horiz-menu ul li.active.parent ul a span, #horiz-menu ul ul li .separator, #horiz-menu ul li.active.parent ul .separator, #horiz-menu ul li.active.parent ul .separator span {text-transform: none;background: none;}
+
+/* Side Menus */
+
+a.mainlevel:hover, a.sublevel:hover {text-decoration: none;}
+a.mainlevel {line-height: 32px;height: 32px;font-size: 110%;padding: 0 0 0 12px;}
+a.sublevel {height: 28px;line-height: 28px;margin: 0;padding: 0 0 0 12px;}
+ul.menu {margin:0;padding: 0 0 35px 0;}
+ul.menu li {list-style: none;margin: 0;padding: 0;float: none;}
+ul.menu span {display: block; height: 34px;line-height: 34px;}
+ul.menu li a, ul.menu li .separator {text-indent: 10px;}
+ul.menu ul li a, ul.menu ul li .separator {text-indent: 25px;}
+ul.menu ul li ul li a, ul.menu ul li ul li .separator {text-indent: 45px;}
+ul.menu ul li ul li ul li a, ul.menu ul li ul li ul li .separator {text-indent: 65px;}
+ul.menu li.parent ul li span {background: none;}
+ul.menu li.active.parent li span {background: none;}
+ul.menu li.active.parent ul li, ul.menu li.active.parent ul li.parent ul {background: none;}
+ul.menu li.active.parent ul {padding: 6px 0;margin: 0;}
+ul.menu ul span {height: 26px;line-height: 26px;}
+.moduletable-sidemenu a.mainlevel {margin: 0 0 1px 0;}
+ul.menu a, ul.menu .separator {display: block;line-height: 32px;text-indent: 0px;height: 32px;overflow: hidden;font-size: 120%;float: none;}
+ul.menu li.active a, ul.menu li.active li.active a, a#active_menu.mainlevel, a#active_menu.sublevel, ul.menu li.active .separator, ul.menu li.active li.active .separator {font-weight: bold;}
+ul.menu li.active li a, ul.menu li.active li.active li a, ul.menu li.active li .separator, ul.menu li.active li.active li .separator {font-weight: normal;}
+ul.menu ul li {border: 0;}
+ul.menu ul ul {padding: 0; margin: 0;background: none;}
+ul.menu li li {padding: 0;margin: 0;border-bottom: 0;}
+ul.menu ul a, ul.menu ul .separator {text-indent: 0;}
+ul.menu li.active a, ul.menu li.active a:hover, ul.menu li.active .separator, ul.menu li.active .separator:hover {text-decoration: none; line-height: 26px;}
+ul.menu li a:hover, ul.menu li .separator:hover {text-decoration: none;}
+ul.menu li.active ul {margin-top: 0;margin-bottom: 0;padding-top: 5px;padding-bottom: 5px;}
+ul.menu ul {padding: 0;margin: 0 12px;}
+ul.menu ul ul {border: 0;}
+ul.menu ul a, ul.menu ul .separator {font-size: 110%;height: 26px;line-height: 26px;padding: 0;margin: 0;}
+ul.menu li.active.parent li {border: 0;}
+
+/* Bottom Menu */
+
+#bottom-menu ul#mainlevel-bottom {padding: 0 0 0 15px;margin: 0;height: 55px;}
+#bottom-menu #mainlevel-bottom ul {list-style: none;margin: 0;padding: 0;}
+#bottom-menu #mainlevel-bottom li {display: block;float: left;margin: 0;padding: 0;}
+#bottom-menu #mainlevel-bottom a, #bottom-menu #mainlevel-bottom a#active_menu.mainlevel {white-space: nowrap;display: block;float: left;font-weight: normal;overflow: hidden;height: 55px;line-height: 55px;font-size: 120%;text-decoration: none;padding: 0 20px 0 0;margin: 0 18px 0 0;}
+
+/* Extra Content Styles */
+
+a.readon {margin-top: 16px;padding: 0;display: block;font-size: 100%;text-indent: 12px;}
+a.readon2 {width: 80px;height: 14px;display: block;margin-top: 16px;text-transform: uppercase;line-height: 14px;font-size: 9px;font-weight: bold;padding: 0;text-indent: 5px;}
+a.readon2:hover {text-decoration: none;background-position: 0 -14px;}
+#pathway, #pathway-module {width: 100%;display: block;}
+span.pathway {display: block;font-weight: normal;line-height: 150%;overflow: hidden;padding-top: 10px;padding-bottom: 12px;padding-left: 10px;}
+span.pathway img {padding-right: 1px;width: 8px;height: 7px;}
+span.pathway a {float: none;padding: 0 5px 0 0;}
+#accessibility {width: 50px;height: 14px;float: right;z-index: 5000;padding-top: 4px;}
+#accessibility span {background-repeat: no-repeat;}
+#accessibility a {text-decoration: none; cursor: pointer;}
+#accessibility #buttons {float: right;}
+#accessibility .button {display: block;float: right;width: 16px;height: 14px;}
+#accessibility a.small .button {margin-right: 5px;}
+a.nounder {text-decoration: none;border: 0;cursor: pointer;}
+a.nounder:hover {text-decoration: none;}
+.clr {clear:both;}
+fieldset {border-left: 0;border-right: 0;border-top: 0;}
+fieldset.input, a img, body .pollstableborder {border: 0;}
+img.content-left {float: left;margin-right: 10px;padding: 5px;}
+img.content-right {float: right;margin-left: 10px;padding: 5px;}
+.back_button {margin-top: 20px;margin-bottom: 10px;}
+.tool-tip {padding: 4px;}
+.bannergroup .clr {clear: none !important;}
+
+/* Login */
+
+form#form-login ul {padding-left: 18px;}
+form#form-login fieldset.input {padding: 0;}
+p#form-login-remember {margin-bottom: 5px;}
+input#mod_login_username.inputbox, input#mod_login_password.inputbox, input#modlgn_username.inputbox, input#modlgn_passwd.inputbox {height: 20px;display: block;width: 98%;margin-top: 3px;}
+.module input.button, .moduletable input.button {border: 0;width: 54px;height: 20px;cursor: pointer;text-align: center;text-transform: uppercase;margin-top: 10px;margin-bottom: 10px;line-height: 18px;padding: 0;font-size: 10px;}
+.module-clean input.button, .moduletable-clean input.button, .module-hilite1 input.button, .module-hilite2 input.button, .module-hilite3 input.button, .moduletable-hilite1 input.button, .moduletable-hilite2 input.button, .moduletable-hilite3 input.button, .moduletable-hilite4 input.button, .module-hilite5 input.button, .moduletable-hilite5 input.button, .module-hilite6 input.button, .moduletable-hilite6 input.button, .module-hilite7 input.button, .moduletable-hilite7 input.button, .module-hilite8 input.button, .moduletable-hilite8 input.button, .module-hilite9 input.button, .moduletable-hilite9 input.button {width: 62px;height: 14px;display: block;line-height: 14px; margin-top: 10px;text-transform: uppercase;line-height: 14px;font-size: 9px;font-weight: bold;padding: 0;text-indent: 5px;border: 0;text-align: left;cursor: pointer;margin-bottom: 10px;}
+.module-clean input.button:hover, .moduletable-clean input.button:hover, .module-hilite1 input.button:hover, .module-hilite2 input.button:hover, .module-hilite3 input.button:hover, .moduletable-hilite1 input.button:hover, .moduletable-hilite2 input.button:hover, .moduletable-hilite3 input.button:hover, .moduletable-hilite4 input.button:hover, .module-hilite5 input.button:hover, .moduletable-hilite5 input.button:hover, .module-hilite6 input.button:hover, .moduletable-hilite6 input.button:hover, .module-hilite7 input.button:hover, .moduletable-hilite7 input.button:hover, .module-hilite8 input.button:hover, .moduletable-hilite8 input.button:hover, .module-hilite9 input.button:hover, .moduletable-hilite9 input.button:hover {text-decoration: none;background-position: 0 -14px;}
+
+/* Tabbed Modules */
+
+#moduleslider-size {overflow: hidden;padding: 0;}
+#moduleslider-size.alt-bottom {margin-bottom: 4px;}
+#tabmodules .padding {padding: 0;}
+#tabmodules div.module {background: none;padding: 15px 0 15px 15px;padding-right: 10px;}
+#tabmodules div.module-hilite1, #tabmodules div.module-hilite2, #tabmodules div.module-hilite3, #tabmodules div.module-hilite4, #tabmodules div.module-hilite5, #tabmodules div.module-hilite6 {padding: 15px;margin: 15px 0 15px 15px}
+#tabmodules .module-hilite1 h3, #tabmodules .module-hilite2 h3, #tabmodules .module-hilite3 h3, #tabmodules .module-hilite4 h3, #tabmodules .module-hilite5 h3, #tabmodules .module-hilite6 h3 {margin-top: 0;}
+#tabmodules .module h3 {background: none;margin: 0;padding: 0 0 20px 0;text-align: left;}
+#tabmodules {overflow: hidden;}
+#tabmodules div {padding: 0;margin: 0;}
+#tabmodules li span {line-height: 40px;padding: 0;}
+#rokslide-toolbar span {white-space: nowrap;}
+#rokslide-toolbar {margin: 0;padding: 0;height: 40px;padding: 0;font-weight: bold;}
+#rokslide-toolbar li {height: 40px;font-size: 130%;margin: 0;padding: 0 16px;}
+#rokslide-toolbar li.current {height: 40px;}
+#frame {text-align: left;}
+#frame .module, #frame .module-hilite1, #frame .module-hilite2, #frame .module-hilite3, #frame .module-hilite4, #frame .module-hilite5, #frame .module-hilite6, #frame .module-hilite7, #frame .module-hilite8, #frame .module-hilite9, #frame .module-clean  {float: left;padding: 10px;}
+#frame .mmpr-1 .module {width: auto;}
+#frame .mmpr-2 .module {width: 45%;}
+#frame .mmpr-3 .module {width: 30%;}
+#frame .mmpr-4 .module {width: 21%;}
+#frame .mmpr-5 .module {width: 16%;}
+#frame .mmpr-1 .module-hilite1, #frame .mmpr-1 .module-hilite2, #frame .mmpr-1 .module-hilite3, #frame .mmpr-1 .module-hilite4, #frame .mmpr-1 .module-hilite5, #frame .mmpr-1 .module-hilite6, #frame .mmpr-1 .module-hilite7, #frame .mmpr-1 .module-hilite8, #frame .mmpr-1 .module-hilite9, #frame .mmpr-1 .module-clean {width: 92%;}
+#frame .mmpr-2 .module-hilite1, #frame .mmpr-2 .module-hilite2, #frame .mmpr-2 .module-hilite3, #frame .mmpr-2 .module-hilite4, #frame .mmpr-2 .module-hilite5, #frame .mmpr-2 .module-hilite6, #frame .mmpr-2 .module-hilite7, #frame .mmpr-2 .module-hilite8, #frame .mmpr-2 .module-hilite9, #frame .mmpr-2 .module-clean {width: 43%;}
+#frame .mmpr-3 .module-hilite1, #frame .mmpr-3 .module-hilite2, #frame .mmpr-3 .module-hilite3, #frame .mmpr-3 .module-hilite4, #frame .mmpr-3 .module-hilite5, #frame .mmpr-3 .module-hilite6, #frame .mmpr-3 .module-hilite7, #frame .mmpr-3 .module-hilite8, #frame .mmpr-3 .module-hilite9, #frame .mmpr-3 .module-clean {width: 26.7%;}
+#frame .mmpr-4 .module-hilite1, #frame .mmpr-4 .module-hilite2, #frame .mmpr-4 .module-hilite3, #frame .mmpr-4 .module-hilite4, #frame .mmpr-4 .module-hilite5, #frame .mmpr-4 .module-hilite6, #frame .mmpr-4 .module-hilite7, #frame .mmpr-4 .module-hilite8, #frame .mmpr-4 .module-hilite9, #frame .mmpr-4 .module-clean {width: 18.4%;}
+#frame .mmpr-5 .module-hilite1, #frame .mmpr-5 .module-hilite2, #frame .mmpr-5 .module-hilite3, #frame .mmpr-5 .module-hilite4, #frame .mmpr-5 .module-hilite5, #frame .mmpr-5 .module-hilite6, #frame .mmpr-5 .module-hilite7, #frame .mmpr-5 .module-hilite8, #frame .mmpr-5 .module-hilite9, #frame .mmpr-5 .module-clean {width: 13.5%;}
+#leftcol #frame div div, #rightcol #frame div div {width: auto;}
+#rightcol #rokslide-toolbar li, #leftcol #rokslide-toolbar li {font-size: 100%;padding: 0 8px;}
+#rightcol #tabmodules div.module, #leftcol #tabmodules div.module {padding: 15px;}
+
+/* RokNewsRotator */
+
+#news-rotator {position:relative;z-index:1;height:190px;overflow:hidden;padding: 2px 2px 3px 3px;margin: 0;}
+#news-rotator .image {position:relative;height:190px;z-index:2;overflow:hidden;display:block;}
+#news-rotator .image div {padding: 0;margin: 0;}
+#news-rotator .story {display:block;position:relative;z-index:2;height:190px;font-weight: normal;}
+#news-rotator .story p {font-size: 130%;line-height:150%;}
+#news-rotator h1 {margin-top:8px;font-size: 230%;margin-bottom: 24px;}
+#news-rotator .story .padding {padding:30px 25px 40px 25px;overflow:hidden;}
+#news-rotator .controls {position:absolute;top:15px;right:15px;z-index:5;}
+#news-rotator .controls img {height:15px;width:15px;cursor:pointer;margin-right:3px;}
+#news-rotator .control-prev {background-position:0 0;}
+#news-rotator .control-next {background-position:0 -17px;}
+#news-rotator .control-stop {background-position:0 -34px;}
+#news-rotator .control-play {background-position:0 -51px;}
+
+/* @group Demo Content */
+
+/* Custom Modules Tutorial */
+.rokmod-demo-block .parameters div {border-right:1px dotted #666;padding-right:12px;}
+.rokmod-demo-block .options div {border-right:1px dotted #666; padding-right: 12px;}
+.rokmod-demo-block .demo div {border-right:1px dotted #666;padding-right: 12px;}
+.rokmod-demo-block .parameters, .rokmod-demo-block .options, .rokmod-demo-block .demo, .rokmod-demo-block .description {float:left;margin-right:12px;}
+.rokmod-demo-block .parameters span, .rokmod-demo-block .options span, .rokmod-demo-block .demo span, .rokmod-demo-block .description span {display:block;font-size:11px;line-height:22px;}
+.rokmod-demo-block .demo-span1 {font-weight: bold;}
+
+.variation-chooser {position:relative;}
+.variation-chooser .controls {height: 25px;}
+.variation-chooser .control-prev, .variation-chooser .control-next{cursor:pointer;height:16px;margin-right:3px;width:16px;float: left;margin-top:1px;}
+.variation-chooser .control-prev{background-position:0 0;margin-right: 0.5em;}
+.variation-chooser .control-prev:hover {background-position: 0 -16px;}
+.variation-chooser .control-next{background-position:0 -32px;margin-left: 0.5em;}
+.variation-chooser .control-next:hover {background-position: 0 -48px;}
+.variation-chooser .controls{position:absolute;left:5px;}
+.variation-chooser input.button:hover {color: #333 !important;}
+
+.moduletable-rotator #news-rotator .image {height: 121px;margin-top: 38px;margin-left: 18px;}
+.moduletable-rotator #news-rotator .story {margin-left: 132px;}
+
+/* @end */

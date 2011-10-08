@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="Season Table Layout">
+		<message>
+			<![CDATA[Season Table Layout]]>
+		</message>
+	</layout>
+	<state>
+		<name>Season Table Layout</name>
+		<description>Season Table Layout</description>
+		<url addpath="/administrator/components/com_joomsport/elements">
+			<param name="sid" type="season" default="0" label="Select Season" description="Season" />
+			<param name="gr_id" type="season" default="0" label="Select Group" description="Group" />
+		</url>
+		<params>
+		</params>
+	</state>
+</metadata>

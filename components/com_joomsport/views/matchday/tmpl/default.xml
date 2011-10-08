@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="Match Layout">
+		<message>
+			<![CDATA[STANDARD ARTICLE LAYOUT DESC]]>
+		</message>
+	</layout>
+	<state>
+		<name>MatchDay Layout</name>
+		<description>MatchDay Layout</description>
+		<url addpath="/administrator/components/com_joomsport/elements">
+			<param name="id" type="matchday" default="0" label="Select MatchDay" description="MatchDay" />
+		</url>
+		<params>
+		</params>
+	</state>
+</metadata>

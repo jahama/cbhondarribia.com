@@ -1,0 +1,27 @@
+<playlist version="1" xmlns="http://xspf.org/ns/0/">
+	<title>CG Playlist</title>
+	<meta rel="generator">AllVideos Reloaded</meta>
+	<meta rel="generatorurl">http://allvideos.fritz-elfert.de</meta>
+	<trackList>
+		<track>
+			<location>images/stories/videos/euro.flv</location>
+			<image>images/stories/videos/euro.jpg</image>
+			<info>http://www.ignacioiglesias.es</info>
+			<title>Euro</title>
+			<creator>Ignacio Iglesias</creator>
+			<meta rel="type">flv</meta>
+		</track>
+		<track>
+			<location>http://mundojoomla.org/images/stories/videos/spot_airis_gea.flv</location>
+			<image>http://mundojoomla.org//images/stories/videos/spot-airis-gea.jpg</image>
+			<info>http://www.trespies.com/</info>
+			<title>spot Airis Gea</title>
+			<creator>trespies arte y publicidad</creator>
+			<meta rel="type">flv</meta>
+		</track>
+		<track>
+			<location>/images/stories/videos/spot_airis_pragma.flv</location>
+			<title>spot Airis Pragma</title>
+		</track>
+	</trackList>
+</playlist>

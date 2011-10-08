@@ -1,0 +1,159 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>CSS Page Template - Two Column, Left Static</title>
+<meta http-equiv="Content-Type"
+content="text/html; charset=iso-8859-1" />
+<meta name="Robots" content="NOINDEX" />
+<meta http-equiv="PRAGMA" content="NO-CACHE" /><!--
+  Web Site: www.ssi-developer.net
+  Comments: Copyright 2003 www.ssi-developer.net
+  Licence:  Creative Commons - Non-commercial Share-Alike
+-->
+<link rel="stylesheet" type="text/css"
+href="2c-hd-lc-static-layout.css" />
+<link rel="stylesheet" type="text/css"
+href="2c-hd-lc-static-presentation.css" />
+</head>
+<body>
+<!-- Header -->
+<div id="hdr">
+<div style="font-weight:bold;font-size:12px;margin:10px;">
+<h2 align="center"> EJEMPLOS SENCILLOS DE USO DE FOTOS PANORAMICAS </h2>
+
+</div>
+<!-- left column -->
+<div id="lh-col">
+
+</div>
+<!-- end of left column -->
+
+<!-- right column -->
+<!-- IMAGEN 1 -->
+<div id="rh-col">
+<h3 align="center">Imagen original</h3>
+<p align="center"> 
+	<img src="../img/img1.JPG" width="700" height="300" alt="" title="">
+</p>
+<h3 align="center"> Panoramica simple, casi lo mas basico</h3>
+<p align="center"> 
+	<applet archive="ptviewer.jar" code="ptviewer" width="500" height="200">
+		<param name="file" value="../img/img1.JPG">
+		<param name="quality" value="3">
+		<param name="auto" value="0.2">
+		<param name="bgcolor" value="ebebeb">
+		Imagen 1
+	</applet>
+</p>
+<!-- /IMAGEN 1 -->
+
+<hr />
+<!-- IMAGEN 2 -->
+<h3 align="center">Imagen original</h3>
+<p align="center"> 
+	<img src="../img/img2.JPG" width="700" height="300" alt="" title="">
+</p>
+<h3 align="center">Panoramica con algunos controles para el zoom, parada e inicio (como la de la sidreria)</h3>
+<p align="center"> 
+				<applet archive = "ptviewer.jar" code = "ptviewer.class" width = "750" height = "260">				
+				<param name = bar_x value = 304>
+				<param name = bar_y value = 176>
+				<param name = bar_width value = 141>
+				<param name = bar_height value = 4>
+				<param name = barcolor value = cc9900>
+
+				<param name = quality value = 3>
+				<param name = maxspeed value = 7>
+				<param name = frame value = "../img/barra_navegacion.jpg">
+				<param name = bgcolor value = ffffff>
+				<param name = shotspot0 value = " x926 y305 a937 b324 u'ptviewer:startAutoPan(1.0,0,1.0)' ">
+				<param name = shotspot1 value = " x906 y305 a917 b320 u'ptviewer:startAutoPan(0,0,1.01)' ">
+				<param name = shotspot2 value = " x894 y305 a906 b324 u'ptviewer:startAutoPan(0,0,0.99)' ">
+				<param name = shotspot3 value = " x563 y307 a639 b319 u'http://www.themovie.org' t'_blank' ">
+				<param name = shotspot4 value = " x682 y243 a693 b260 u'ptviewer:startAutoPan(0,0,0.99)' ">
+
+				<param name = shotspot5 value = " x696 y244 a705 b260 u'ptviewer:startAutoPan(0,0,1.01)' ">
+				<param name = shotspot6 value = " x716 y241 a726 b260 u'ptviewer:startAutoPan(1.0,0,1.0)' ">
+				<param name = file value = "ptviewer:0">
+				<param name = pano0 value = 
+					"{file=../img/img2.JPG}
+					{auto=0.5}
+					{panmin=-164}
+					{panmax=166}
+					{pan=17}
+					{tiltmin=-55}
+					{tiltmax=83}
+					{tilt=5}
+					{fovmin=32}
+					{fovmax=159}
+					{fov=92}">
+				</applet>
+</p>	
+<!-- /IMAGEN 2 -->	
+
+<!-- IMAGEN 3 -->
+<h3 align="center">Imagen original</h3>
+<p align="center"> 
+	<img src="../img/img1.JPG" width="700" height="300" alt="" title="">
+</p>
+<h3 align="center">Panoramica con algunos controles para el zoom, parada e inicio (como la de la sidreria)</h3>
+<p align="center"> 
+				<applet archive = "ptviewer.jar" code = "ptviewer.class" width = "750" height = "260">				
+				<param name = bar_x value = 304>
+				<param name = bar_y value = 176>
+				<param name = bar_width value = 141>
+				<param name = bar_height value = 6>
+				<param name = barcolor value = cccccc>
+
+				<param name = quality value = 5>
+				<param name = maxspeed value = 7>
+				<param name = frame value = "../img/barra_navegacion.jpg">
+				<param name = bgcolor value = ffffff>
+				<param name = shotspot0 value = " x926 y305 a937 b324 u'ptviewer:startAutoPan(1.0,0,1.0)' ">
+				<param name = shotspot1 value = " x906 y305 a917 b320 u'ptviewer:startAutoPan(0,0,1.01)' ">
+				<param name = shotspot2 value = " x894 y305 a906 b324 u'ptviewer:startAutoPan(0,0,0.99)' ">
+				<param name = shotspot3 value = " x563 y307 a639 b319 u'http://www.themovie.org' t'_blank' ">
+				<param name = shotspot4 value = " x682 y243 a693 b260 u'ptviewer:startAutoPan(0,0,0.99)' ">
+
+				<param name = shotspot5 value = " x696 y244 a705 b260 u'ptviewer:startAutoPan(0,0,1.01)' ">
+				<param name = shotspot6 value = " x716 y241 a726 b260 u'ptviewer:startAutoPan(1.0,0,1.0)' ">
+				<param name = file value = "ptviewer:0">
+				<param name = pano0 value = 
+					"{file=../img/img1.JPG}
+					{auto=0.5}
+					{panmin=-164}
+					{panmax=166}
+					{pan=17}
+					{tiltmin=-55}
+					{tiltmax=83}
+					{tilt=5}
+					{fovmin=32}
+					{fovmax=159}
+					{fov=92}">
+				</applet>
+</p>	
+<!-- /IMAGEN 3 -->	
+
+<!-- IMAGEN 4 -->
+
+<h3 align="center">Imagen original</h3>
+<p align="center"> 
+	<img src="../img/img2.JPG" width="700" height="300" alt="" title="">
+</p>
+<h3 align="center"> Panoramica simple, casi lo mas basico</h3>
+<p align="center"> 
+	<applet archive="ptviewer.jar" code="ptviewer" width="500" height="200">
+		<param name="file" value="../img/img2.JPG">
+		<param name="quality" value="3">
+		<param name="auto" value="0.2">
+		<param name="bgcolor" value="ebebeb">
+		Imagen 1
+	</applet>
+</p>
+<!-- /IMAGEN 4 -->	
+</div>
+<!-- end of right column -->
+
+</body>
+</html>

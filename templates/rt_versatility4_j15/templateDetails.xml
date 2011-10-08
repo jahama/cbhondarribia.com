@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<install version="1.5" type="template">
+    <name>rt_versatility4_j15</name>
+    <version>1.5.0</version>
+    <creationDate>10/30/08</creationDate>
+    <author>RocketTheme</author>
+    <authorEmail>support@rockettheme.com</authorEmail>
+    <authorUrl>http://www.rockettheme.com</authorUrl>
+    <copyright>Copyright 2006-2008 - RocketTheme.com</copyright>
+    <license>Proprietary - RTTC Club members only</license>
+    <description>
+			<![CDATA[
+			<h1>RocketTheme Versatility 4</h1>
+
+			<img src="../templates/rt_versatility4_j15/template_thumbnail.png" align="left" hspace="10" />Versatility 4 is the new October 2008 template from RocketTheme. It is not free or public.  This template is for members of the RocketTheme Joomla Template Club only.  For installation help check out the 'Versatility 4' Overview Page on the <a href="http://www.rockettheme.com/blogcategory/Template_Club/">RocketTheme Template Club</a> home page.
+
+			<h3>Changelog</h3>
+
+			<b>1.5.0</b><br />
+			<ul>
+			<li>Initial Release</li>
+			</ul>
+
+			]]>  	
+    </description>
+	<files>
+		<filename>index.php</filename>
+		<filename>params.ini</filename>
+		<filename>rt_styleloader.php</filename>
+		<filename>rt_styleswitcher.php</filename>
+		<filename>rt_tabmodules.php</filename>
+		<filename>rt_utils.php</filename>
+		<filename>rt_head_includes.php</filename>
+		<filename>template_thumbnail.png</filename>
+		<filename>templateDetails.xml</filename>
+		<folder>html/</folder>
+		<folder>css/</folder>
+		<folder>images/</folder>
+		<folder>js/</folder>
+	</files>
+	<positions>
+		<position>banner</position>
+		<position>banner1</position>
+		<position>banner2</position>
+		<position>banner3</position>
+		<position>banner4</position>
+		<position>toolbar</position>
+		<position>icon</position>
+		<position>top</position>
+		<position>showcase</position>
+		<position>showcase2</position>
+		<position>search</position>
+		<position>advert1</position>
+		<position>advert2</position>
+		<position>advert3</position>
+		<position>advert4</position>
+		<position>advert5</position>
+		<position>advert6</position>
+		<position>left</position>
+		<position>right</position>
+		<position>inset</position>
+		<position>inset2</position>
+		<position>user1</position>
+		<position>user2</position>
+		<position>user3</position>
+		<position>user4</position>
+		<position>user5</position>
+		<position>user6</position>
+		<position>user7</position>
+		<position>user8</position>
+		<position>user9</position>
+		<position>user10</position>
+		<position>user11</position>
+		<position>user12</position>
+		<position>user13</position>
+		<position>user14</position>
+		<position>user15</position>
+		<position>user16</position>
+		<position>user17</position>
+		<position>user18</position>
+		<position>user19</position>
+		<position>user20</position>
+		<position>bottom</position>
+		<position>footer</position>
+		<position>breadcrumbs</position>
+		<position>debug</position>
+	</positions>
+	<params>
+		<param name="defaultStyle" type="list" default="style2" label="Default Style" description="Default Preset Style">
+			<option value="style1">Style1</option>
+			<option value="style2">Style2</option>
+			<option value="style3">Style3</option>
+			<option value="style4">Style4</option>
+			<option value="style5">Style5</option>
+			<option value="style6">Style6</option>
+			<option value="style7">Style7</option>
+			<option value="style8">Style8</option>
+			<option value="style9">Style9</option>
+			<option value="style10">Style10</option>
+		</param>
+		<param name="menuStyle" type="list" default="style3" label="Menu Style" description="Default Menu Style">
+			<option value="menustyle1">Menu Style1</option>
+			<option value="menustyle2">Menu Style2</option>
+			<option value="menustyle3">Menu Style3</option>
+			<option value="menustyle4">Menu Style4</option>
+		</param>
+		<param name="h3Style" type="list" default="icon1" label="Module H3 Style" description="Default Module H3 Icon Style">
+			<option value="icon1">Icon 1</option>
+			<option value="icon2">Icon 2</option>
+			<option value="icon3">Icon 3</option>
+			<option value="noicon">No Icon</option>
+		</param>
+		<param name="headerWrapped" type="radio" default="0" label="Header Wrapped" description="Enable/Disable Header Wrapping">
+			<option value="1">Enabled</option>
+			<option value="0">Disabled</option>
+		</param>
+		<param name="footerWrapped" type="radio" default="0" label="Footer Wrapped" description="Enable/Disable Footer Wrapping">
+			<option value="1">Enabled</option>
+			<option value="0">Disabled</option>
+		</param>
+		<param name="enableIe6warn" type="radio" default="0" label="Enable IE6 Warning" description="Enable/Disable IE6 Warning">
+			<option value="1">Enabled</option>
+			<option value="0">Disabled</option>
+		</param>
+		<param name="fontFamily" type="list" default="default" label="Font Family" description="Choose a Font Family">
+			<option value="default">Default</option>
+			<option value="geneva">Geneva</option>
+			<option value="optima">Optima</option>
+			<option value="helvetica">Helvetica</option>
+			<option value="trebuchet">Trebuchet</option>
+			<option value="lucida">Lucida</option>
+			<option value="georgia">Georgia</option>
+			<option value="palatino">Palatino</option>
+		</param>
+		<param name="enableFontspans" type="radio" default="1" label="Enable FontSpans" description="Enable/Disable Two Tone Font Spans">
+			<option value="1">Enabled</option>
+			<option value="0">Disabled</option>
+		</param>
+		<param name="templateWidth" type="text" default="958" label="Template Width" description="Width in px for Fixed Template Width Style" />
+		<param name="leftcolumnWidth" type="text" default="220" label="Left Sidecolumn Width" description="Width in px" />
+		<param name="rightcolumnWidth" type="text" default="220" label="Right Sidecolumn Width" description="Width in px" />
+		<param name="leftinsetWidth" type="text" default="275" label="Left Inset Width" description="Width in px" />
+		<param name="rightinsetWidth" type="text" default="185" label="Right Inset Width" description="Width in px" />
+		<param name="leftbannerWidth" type="text" default="170" label="Left Banner Width" description="Width in px" />
+		<param name="rightbannerWidth" type="text" default="170" label="Right Banner Width" description="Width in px" />
+		<param name="splitmenuCol" type="list" default="rightcol" label="Splitmenu Submenu Side" description="leftcol or rightcol">
+			<option value="leftcol">Left Column</option>
+			<option value="rightcol">Right Column</option>
+		</param>
+		<param name="defaultFont" type="list" default="default" label="Font Size" description="Font size variation to use">
+			<option value="smaller">Smaller</option>
+			<option value="default">Default</option>
+			<option value="larger">Larger</option>
+		</param>
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="showModuleslider" type="radio" default="1" label="Show Moduleslider" description="Show or Hide Moduleslider Tabbed Modules">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="modulesliderLocation" type="list" default="mid-bottom" label="ModuleSlider Location" description="Select the Location in which the Moduleslider displays">
+			<option value="mid-top">Middle Top</option>
+			<option value="mid-bottom">Middle Bottom</option>
+			<option value="left">Left Column</option>
+			<option value="right">Right Column</option>
+			<option value="bottom">Bottom</option>
+		</param>
+		<param name="modulesliderHeight" type="text" default="220" label="Moduleslider Height" description="Height of the Moduleslider Tabbed Modules block" />
+		<param name="maxModsPerRow" type="text" default="5" label="Max Modules per row" description="Maximum modules per row" />
+		<param name="msTitle1" type="text" default="Tab One" label="Tab 1 Title" description="" />
+		<param name="msModule1" type="text" default="user11" label="Tab 1 Module" description="" />
+		<param name="msTitle2" type="text" default="Tab Two" label="Tab 2 Title" description="" />
+		<param name="msModule2" type="text" default="user12" label="Tab 2 Module" description="" />
+		<param name="msTitle3" type="text" default="Tab Three" label="Tab 3 Title" description="" />
+		<param name="msModule3" type="text" default="user13" label="Tab 3 Module" description="" />
+		<param name="msTitle4" type="text" default="Tab Four" label="Tab 4 Title" description="" />
+		<param name="msModule4" type="text" default="user14" label="Tab 4 Module" description="" />
+		<param name="msTitle5" type="text" default="Tab Five" label="Tab 5 Title" description="" />
+		<param name="msModule5" type="text" default="user15" label="Tab 5 Module" description="" />
+		<param name="msTitle6" type="text" default="Tab Six" label="Tab 6 Title" description="" />
+		<param name="msModule6" type="text" default="user16" label="Tab 6 Module" description="" />
+		<param name="msTitle7" type="text" default="Tab Seven" label="Tab 7 Title" description="" />
+		<param name="msModule7" type="text" default="user17" label="Tab 7 Module" description="" />
+		<param name="msTitle8" type="text" default="Tab Eight" label="Tab 8 Title" description="" />
+		<param name="msModule8" type="text" default="user18" label="Tab 8 Module" description="" />
+		<param name="msTitle9" type="text" default="Tab Nine" label="Tab 9 Title" description="" />
+		<param name="msModule9" type="text" default="user19" label="Tab 9 Module" description="" />
+		<param name="msTitle10" type="text" default="Tab Ten" label="Tab 10 Title" description="" />
+		<param name="msModule10" type="text" default="user20" label="Tab 10 Module" description="" />
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="showBreadcrumbs" type="radio" default="0" label="Show Breadcrumbs" description="Show/Hide the Breadcrumbs">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="showLogo" type="radio" default="1" label="Show Logo" description="Show Logo or Hide Logo and convert to Module Position">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="showbottomLogo" type="radio" default="1" label="Show Bottom Logo" description="Show or Hide Footer RocketTheme Logo">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="showTextsizer" type="radio" default="1" label="Show Font Controls" description="Show or Hide the Font Sizer controls">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="jsCompatibility" type="radio" default="0" label="JS Compatibility Mode" description="Enable JS Compatibility mode for better compatibility with other js libraries">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="menuType" type="list" default="splitmenu" label="Menu Type" description="Type of menu for main navigation">
+			<option value="moomenu">MooMenu</option>
+			<option value="suckerfish">Suckerfish</option>
+			<option value="splitmenu">SplitMenu</option>
+			<option value="module">Toolbar Module Position</option>
+			<option value="none">No Horizontal Menu Bar</option>
+		</param>
+		<param name="menuName" type="text" default="mainmenu" label="Menu Name" description="Name of Joomla! menu for the main navigation" />
+		<param name="moo_bgiframe" type="radio" default="0" label="MooMenu bgIFrame" description="Only turn on if you are having problems with IE and z-index. This feature is experimental.">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="moo_delay" type="text" default="500" label="MooMenu Delay" description="This is the how long (ms) you can mouse off the menu before it vanishes." />
+		<param name="moo_duration" type="text" default="600" label="MooMenu Duration" description="the time in ms the animation will run for." />
+		<param name="moo_fps" type="text" default="200" label="MooMenu FPS" description="speed of the animation - leave at 100 for best results." />
+		<param name="moo_transition" type="list" default="Sine.easeOut" label="MooMenu Transition" description="any of the available MooTools transitions.">
+			<option value="linear">linear</option>
+			<option value="Quad.easeOut">Quad.easeOut</option>
+			<option value="Quad.easeIn">Quad.easeIn</option>
+			<option value="Quad.easeInOut">Quad.easeInOut</option>
+			<option value="Cubic.easeOut">Cubic.easeOut</option>
+			<option value="Cubic.easeIn">Cubic.easeIn</option>
+			<option value="Cubic.easeInOut">Cubic.easeInOut</option>
+			<option value="Quart.easeOut">Quart.easeOut</option>
+			<option value="Quart.easeIn">Quart.easeIn</option>
+			<option value="Quart.easeInOut">Quart.easeInOut</option>
+			<option value="Quint.easeOut">Quint.easeOut</option>
+			<option value="Quint.easeIn">Quint.easeIn</option>
+			<option value="Quint.easeInOut">Quint.easeInOut</option>
+			<option value="Expo.easeOut">Expo.easeOut</option>
+			<option value="Expo.easeIn">Expo.easeIn</option>
+			<option value="Expo.easeInOut">Expo.easeInOut</option>
+			<option value="Circ.easeOut">Circ.easeOut</option>
+			<option value="Circ.easeIn">Circ.easeIn</option>
+			<option value="Circ.easeInOut">Circ.easeInOut</option>
+			<option value="Sine.easeOut">Sine.easeOut</option>
+			<option value="Sine.easeIn">Sine.easeIn</option>
+			<option value="Sine.easeInOut">Sine.easeInOut</option>
+			<option value="Back.easeOut">Back.easeOut</option>
+			<option value="Back.easeIn">Back.easeIn</option>
+			<option value="Back.easeInOut">Back.easeInOut</option>
+			<option value="Bounce.easeOut">Bounce.easeOut</option>
+			<option value="Bounce.easeIn">Bounce.easeIn</option>
+			<option value="Bounce.easeInOut">Bounce.easeInOut</option>
+			<option value="Elastic.easeOut">Elastic.easeOut</option>
+			<option value="Elastic.easeIn">Elastic.easeIn</option>
+			<option value="Elastic.easeInOut">Elastic.easeInOut</option>
+		</param>
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="moo_bg_enabled" type="radio" default="0" label="MooMenu Background Effect" description="Enable a crossfade effect on MooMenu titles.">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="moo_bg_over_duration" type="text" default="100" label="MooMenu Over Background Duration" description="The time in ms the background effect animation will run for." />
+		<param name="moo_bg_over_transition" type="list" default="Expo.easeOut" label="MooMenu Over Background Transition" description="Any of the available MooTools transitions.">
+			<option value="linear">linear</option>
+			<option value="Quad.easeOut">Quad.easeOut</option>
+			<option value="Quad.easeIn">Quad.easeIn</option>
+			<option value="Quad.easeInOut">Quad.easeInOut</option>
+			<option value="Cubic.easeOut">Cubic.easeOut</option>
+			<option value="Cubic.easeIn">Cubic.easeIn</option>
+			<option value="Cubic.easeInOut">Cubic.easeInOut</option>
+			<option value="Quart.easeOut">Quart.easeOut</option>
+			<option value="Quart.easeIn">Quart.easeIn</option>
+			<option value="Quart.easeInOut">Quart.easeInOut</option>
+			<option value="Quint.easeOut">Quint.easeOut</option>
+			<option value="Quint.easeIn">Quint.easeIn</option>
+			<option value="Quint.easeInOut">Quint.easeInOut</option>
+			<option value="Expo.easeOut">Expo.easeOut</option>
+			<option value="Expo.easeIn">Expo.easeIn</option>
+			<option value="Expo.easeInOut">Expo.easeInOut</option>
+			<option value="Circ.easeOut">Circ.easeOut</option>
+			<option value="Circ.easeIn">Circ.easeIn</option>
+			<option value="Circ.easeInOut">Circ.easeInOut</option>
+			<option value="Sine.easeOut">Sine.easeOut</option>
+			<option value="Sine.easeIn">Sine.easeIn</option>
+			<option value="Sine.easeInOut">Sine.easeInOut</option>
+			<option value="Back.easeOut">Back.easeOut</option>
+			<option value="Back.easeIn">Back.easeIn</option>
+			<option value="Back.easeInOut">Back.easeInOut</option>
+			<option value="Bounce.easeOut">Bounce.easeOut</option>
+			<option value="Bounce.easeIn">Bounce.easeIn</option>
+			<option value="Bounce.easeInOut">Bounce.easeInOut</option>
+			<option value="Elastic.easeOut">Elastic.easeOut</option>
+			<option value="Elastic.easeIn">Elastic.easeIn</option>
+			<option value="Elastic.easeInOut">Elastic.easeInOut</option>
+		</param>
+		<param name="moo_bg_out_duration" type="text" default="800" label="MooMenu Out Background Duration" description="The time in ms the background effect animation will run for." />
+		<param name="moo_bg_out_transition" type="list" default="Sine.easeOut" label="MooMenu Out Background Transition" description="Any of the available MooTools transitions.">
+			<option value="linear">linear</option>
+			<option value="Quad.easeOut">Quad.easeOut</option>
+			<option value="Quad.easeIn">Quad.easeIn</option>
+			<option value="Quad.easeInOut">Quad.easeInOut</option>
+			<option value="Cubic.easeOut">Cubic.easeOut</option>
+			<option value="Cubic.easeIn">Cubic.easeIn</option>
+			<option value="Cubic.easeInOut">Cubic.easeInOut</option>
+			<option value="Quart.easeOut">Quart.easeOut</option>
+			<option value="Quart.easeIn">Quart.easeIn</option>
+			<option value="Quart.easeInOut">Quart.easeInOut</option>
+			<option value="Quint.easeOut">Quint.easeOut</option>
+			<option value="Quint.easeIn">Quint.easeIn</option>
+			<option value="Quint.easeInOut">Quint.easeInOut</option>
+			<option value="Expo.easeOut">Expo.easeOut</option>
+			<option value="Expo.easeIn">Expo.easeIn</option>
+			<option value="Expo.easeInOut">Expo.easeInOut</option>
+			<option value="Circ.easeOut">Circ.easeOut</option>
+			<option value="Circ.easeIn">Circ.easeIn</option>
+			<option value="Circ.easeInOut">Circ.easeInOut</option>
+			<option value="Sine.easeOut">Sine.easeOut</option>
+			<option value="Sine.easeIn">Sine.easeIn</option>
+			<option value="Sine.easeInOut">Sine.easeInOut</option>
+			<option value="Back.easeOut">Back.easeOut</option>
+			<option value="Back.easeIn">Back.easeIn</option>
+			<option value="Back.easeInOut">Back.easeInOut</option>
+			<option value="Bounce.easeOut">Bounce.easeOut</option>
+			<option value="Bounce.easeIn">Bounce.easeIn</option>
+			<option value="Bounce.easeInOut">Bounce.easeInOut</option>
+			<option value="Elastic.easeOut">Elastic.easeOut</option>
+			<option value="Elastic.easeIn">Elastic.easeIn</option>
+			<option value="Elastic.easeInOut">Elastic.easeInOut</option>
+		</param>
+		
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="moo_sub_enabled" type="radio" default="0" label="MooMenu Submenus Effect" description="Enable a fading effect on MooMenu  Submenus.">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="moo_sub_over_duration" type="text" default="50" label="MooMenu Submenu Over Background Duration" description="The time in ms the submenus effect animation will run for." />
+		<param name="moo_sub_over_transition" type="list" default="Expo.easeOut" label="MooMenu Submenu Over Background Transition" description="Any of the available MooTools transitions.">
+			<option value="linear">linear</option>
+			<option value="Quad.easeOut">Quad.easeOut</option>
+			<option value="Quad.easeIn">Quad.easeIn</option>
+			<option value="Quad.easeInOut">Quad.easeInOut</option>
+			<option value="Cubic.easeOut">Cubic.easeOut</option>
+			<option value="Cubic.easeIn">Cubic.easeIn</option>
+			<option value="Cubic.easeInOut">Cubic.easeInOut</option>
+			<option value="Quart.easeOut">Quart.easeOut</option>
+			<option value="Quart.easeIn">Quart.easeIn</option>
+			<option value="Quart.easeInOut">Quart.easeInOut</option>
+			<option value="Quint.easeOut">Quint.easeOut</option>
+			<option value="Quint.easeIn">Quint.easeIn</option>
+			<option value="Quint.easeInOut">Quint.easeInOut</option>
+			<option value="Expo.easeOut">Expo.easeOut</option>
+			<option value="Expo.easeIn">Expo.easeIn</option>
+			<option value="Expo.easeInOut">Expo.easeInOut</option>
+			<option value="Circ.easeOut">Circ.easeOut</option>
+			<option value="Circ.easeIn">Circ.easeIn</option>
+			<option value="Circ.easeInOut">Circ.easeInOut</option>
+			<option value="Sine.easeOut">Sine.easeOut</option>
+			<option value="Sine.easeIn">Sine.easeIn</option>
+			<option value="Sine.easeInOut">Sine.easeInOut</option>
+			<option value="Back.easeOut">Back.easeOut</option>
+			<option value="Back.easeIn">Back.easeIn</option>
+			<option value="Back.easeInOut">Back.easeInOut</option>
+			<option value="Bounce.easeOut">Bounce.easeOut</option>
+			<option value="Bounce.easeIn">Bounce.easeIn</option>
+			<option value="Bounce.easeInOut">Bounce.easeInOut</option>
+			<option value="Elastic.easeOut">Elastic.easeOut</option>
+			<option value="Elastic.easeIn">Elastic.easeIn</option>
+			<option value="Elastic.easeInOut">Elastic.easeInOut</option>
+		</param>
+		<param name="moo_sub_out_duration" type="text" default="600" label="MooMenu Submenu Out Background Duration" description="The time in ms the submenus effect animation will run for." />
+		<param name="moo_sub_over_transition" type="list" default="Expo.easeOut" label="MooMenu Submenu Out Background Transition" description="Any of the available MooTools transitions.">
+			<option value="linear">linear</option>
+			<option value="Quad.easeOut">Quad.easeOut</option>
+			<option value="Quad.easeIn">Quad.easeIn</option>
+			<option value="Quad.easeInOut">Quad.easeInOut</option>
+			<option value="Cubic.easeOut">Cubic.easeOut</option>
+			<option value="Cubic.easeIn">Cubic.easeIn</option>
+			<option value="Cubic.easeInOut">Cubic.easeInOut</option>
+			<option value="Quart.easeOut">Quart.easeOut</option>
+			<option value="Quart.easeIn">Quart.easeIn</option>
+			<option value="Quart.easeInOut">Quart.easeInOut</option>
+			<option value="Quint.easeOut">Quint.easeOut</option>
+			<option value="Quint.easeIn">Quint.easeIn</option>
+			<option value="Quint.easeInOut">Quint.easeInOut</option>
+			<option value="Expo.easeOut">Expo.easeOut</option>
+			<option value="Expo.easeIn">Expo.easeIn</option>
+			<option value="Expo.easeInOut">Expo.easeInOut</option>
+			<option value="Circ.easeOut">Circ.easeOut</option>
+			<option value="Circ.easeIn">Circ.easeIn</option>
+			<option value="Circ.easeInOut">Circ.easeInOut</option>
+			<option value="Sine.easeOut">Sine.easeOut</option>
+			<option value="Sine.easeIn">Sine.easeIn</option>
+			<option value="Sine.easeInOut">Sine.easeInOut</option>
+			<option value="Back.easeOut">Back.easeOut</option>
+			<option value="Back.easeIn">Back.easeIn</option>
+			<option value="Back.easeInOut">Back.easeInOut</option>
+			<option value="Bounce.easeOut">Bounce.easeOut</option>
+			<option value="Bounce.easeIn">Bounce.easeIn</option>
+			<option value="Bounce.easeInOut">Bounce.easeInOut</option>
+			<option value="Elastic.easeOut">Elastic.easeOut</option>
+			<option value="Elastic.easeIn">Elastic.easeIn</option>
+			<option value="Elastic.easeInOut">Elastic.easeInOut</option>
+		</param>
+		<param name="moo_sub_offsets_top" type="text" default="5" label="MooMenu Submenu Top offset" description="The offset in pixels for the top margin of submenus background" />
+		<param name="moo_sub_offsets_right" type="text" default="15" label="MooMenu Submenu Right offset" description="The offset in pixels for the right margin of submenus background" />
+		<param name="moo_sub_offsets_bottom" type="text" default="5" label="MooMenu Submenu Bottom offset" description="The offset in pixels for the bottom margin of submenus background" />
+		<param name="moo_sub_offsets_left" type="text" default="5" label="MooMenu Submenu Left offset" description="The offset in pixels for the left margin of submenus background" />
+    </params>
+</install>
